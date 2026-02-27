@@ -1,0 +1,60 @@
+.skills-section {
+    background: var(--bg-primary);
+}
+
+.skill-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.skill-group-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--font-code);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+}
+
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.65rem 1.1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    cursor: default;
+    transition: border-color var(--transition), background var(--transition);
+}
+
+.skill-card:hover {
+    border-color: var(--skill-color, var(--accent));
+    background: var(--bg-card-hover);
+}
+
+.skill-icon {
+    font-size: 1.3rem;
+    color: var(--skill-color, var(--accent));
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.skill-name {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.skill-card:hover .skill-name {
+    color: var(--text-primary);
+}
