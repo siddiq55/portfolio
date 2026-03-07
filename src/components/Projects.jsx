@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import vshopimg from '../assets/Images/vshopimg.png'
 import qrimg from '../assets/Images/qrimg.png'
+import vchatimg from '../assets/Images/vchatimg.png'
 import './Projects.css'
 
 const projects = [
@@ -23,11 +24,11 @@ const projects = [
     },
     {
         id: 'project-3',
-        title: 'TaskFlow API',
-        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80',
-        tech: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Cloudinary'],
-        github: 'https://github.com/yourusername/taskflow-api',
-        live: null,
+        title: 'VChat Real-Time Chat App',
+        image: vchatimg,
+        tech: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Cloudinary', 'Socket.io'],
+        github: 'https://github.com/siddiq55/vchat',
+        live: 'https://vchat-murex-nine.vercel.app/login',
     },
     {
         id: 'project-4',
