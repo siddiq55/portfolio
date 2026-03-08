@@ -3,16 +3,17 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import vshopimg from '../assets/Images/vshopimg.png'
 import qrimg from '../assets/Images/qrimg.png'
 import vchatimg from '../assets/Images/vchatimg.png'
+import thumblifyimg from '../assets/Images/thumblifyimg.png'
 import './Projects.css'
 
 const projects = [
     {
         id: 'project-1',
-        title: 'DevConnect',
-        image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80',
-        tech: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io', 'JWT'],
-        github: 'https://github.com/yourusername/devconnect',
-        live: 'https://devconnect.vercel.app',
+        title: 'Thumblify AI Thumbnail Generator',
+        image: thumblifyimg,
+        tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Gemini API'],
+        github: 'https://github.com/siddiq55/Thumblify',
+        live: 'https://thumblify-frontend-three.vercel.app/',
     },
     {
         id: 'project-2',
