@@ -13,7 +13,7 @@ const socialLinks = [
         id: 'linkedin-link',
         icon: <FiLinkedin size={20} />,
         label: 'LinkedIn',
-        href: 'https://linkedin.com/in/muhammad-siddique-70074b292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        href: 'https://linkedin.com/in/siddiq01',
     },
     {
         id: 'email-link',
