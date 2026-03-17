@@ -19,7 +19,7 @@ const socialLinks = [
         id: 'email-link',
         icon: <FiMail size={20} />,
         label: 'Email',
-        href: 'mailto:msiddiq5565@email.com',
+        href: 'mailto:msiddiq5565@gmail.com',
     },
 ]
 

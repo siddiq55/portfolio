@@ -44,7 +44,7 @@ export default function Navbar() {
                         </a>
                     ))}
                     <a
-                        href="mailto:msiddiq5565@email.com"
+                        href="mailto:msiddiq5565@gmail.com"
                         className="nav-cta"
                     >
                         Hire Me
